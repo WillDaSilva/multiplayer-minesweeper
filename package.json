@@ -1,0 +1,15 @@
+{
+  "name": "comp2406assignment2",
+  "version": "1.0.0",
+  "description": "Multiplayer Minesweeper",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Da Silva <williambriandasilva@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "ecstatic": "^3.0.0",
+    "ws": "^3.2.0"
+  }
+}

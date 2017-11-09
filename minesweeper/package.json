@@ -1,0 +1,11 @@
+{
+  "name": "minesweeper",
+  "version": "0.1.0",
+  "description": "Simple backend for the game minesweeper",
+  "main": "minesweeper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Da Silva <WillDaSilva@users.noreply.github.com>",
+  "license": "GPL-3.0"
+}

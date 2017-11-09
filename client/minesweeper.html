@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<!--
+COMP 2406 A
+Assignment 2
+2017-11-01
+
+Name:           William Da Silva
+Student Email:  williamcovell@cmail.carleton.ca
+-->
+
+<html>
+    <head>
+        <link rel='stylesheet' type='text/css' href='style.css'>
+    </head>
+    <body>
+        <canvas id='canvas' width='512' height='512' oncontextmenu='return false;'>
+            Canvas not supported
+        </canvas>
+        <div id='messages'></div>
+        <div id='inputs'>
+            <input type='text' id='textField'
+                placeholder='Enter messages and commands here. /help for more info'>
+            <input type='button' id='sendButton' width='60' value='Send' onClick='handleSendButton()'>
+        </div>
+        <script src='assignment2.js'></script>
+    </body>
+</html>

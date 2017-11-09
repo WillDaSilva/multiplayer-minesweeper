@@ -1,0 +1,43 @@
+/*
+COMP 2406 A
+Assignment 2
+2017-11-01
+
+Name:           William Da Silva
+Student Email:  williamcovell@cmail.carleton.ca
+*/
+
+body {
+    background: #dddddd;
+}
+
+#canvas {
+    padding: 0px; /* set as 0px to simplify mouse position calculations */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: #ffffff;
+    border: thin inset #aaaaaa;
+}
+
+#inputs {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#textField {
+    min-width: 459px;
+    font-family: 'Courier New', monospace;
+}
+
+#messages {
+    overflow: auto;
+    width: 512px;
+    height: 272px;
+    border: solid 1px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', monospace;
+    background: #ffffff;
+}
